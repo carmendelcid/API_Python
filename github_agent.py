@@ -9,7 +9,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-# 2. Conectamos con GitHub usando tu NUEVO token del .env
+# 2. Conectamos con GitHub usando token del .env
 TOKEN_KANBAN = os.getenv("GITHUB_TOKEN_KANBAN")
 g = Github(TOKEN_KANBAN)
 
