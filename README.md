@@ -45,4 +45,3 @@ pip install -r requirements.txt
 
 # 2. Levantar el entorno de desarrollo local (Puerto 5000)
 python app.py
-python app.py
